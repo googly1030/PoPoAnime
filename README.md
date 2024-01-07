@@ -4,6 +4,20 @@
 
 PopoAnime is an interactive website showcasing a diverse collection of anime content, providing an immersive experience for anime enthusiasts. The project encompasses a user-friendly interface, dynamic sliders, anime lists, and a comprehensive footer, offering easy navigation and access to a variety of features.
 
+# THIS IS HOW IT LOOKS
+#Image 1
+![Screenshot 2024-01-07 225521](https://github.com/googly1030/PoPoAnime/assets/95157270/25331bdb-e5a3-42cc-b779-09b51d0026ca)
+
+#Image 2
+
+![Screenshot 2024-01-07 225441](https://github.com/googly1030/PoPoAnime/assets/95157270/5bf623b7-4f92-49e0-a0d6-47f28b32b49f)
+
+#SAMPLE VIDEO
+
+
+https://github.com/googly1030/PoPoAnime/assets/95157270/74201e93-a25e-4580-b4c2-fc5553882c55
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
