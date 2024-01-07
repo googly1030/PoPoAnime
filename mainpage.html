@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="/final_project/page_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class=".container">
+      <div class="navbar">
+        <h2>
+          <img
+            id="page-icon"
+            src="/final_project/icons/crunchyroll.png"
+            alt=""
+          />
+          <span id="page-name">popoAnime</span>
+        </h2>
+        <p>Browse</p>
+        <img id="down-arrow" src="/final_project/icons/down-arrow.png" alt="" />
+        <p>Games</p>
+
+        <p>news</p>
+        <img id="down-arrow" src="/final_project/icons/down-arrow.png" alt="" />
+        <div class="icon">
+          <div class="icon-premium">
+            <img
+              class="icon-premium"
+              src="/final_project/icons/crown.png"
+              alt=""
+            />
+            <span id="hide-premium" style="color: #c4a51a"
+              >TRY FREE <br />
+              <span style="color: white">PREMIUM</span>
+            </span>
+          </div>
+          <p>
+            <img
+              class="icon-search"
+              src="/final_project/icons/search-interface-symbol.png"
+              alt=""
+            />
+          </p>
+
+          <p>
+            <img
+              class="icon-watchlist"
+              src="/final_project/icons/save-instagram.png"
+              alt=""
+            />
+          </p>
+
+          <p>
+            <img class="icon-user" src="/final_project/icons/user.png" alt="" />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-page">
+      <div class="main-container">
+        <div class="slide-box">
+          <img
+            id="img-1"
+            src="/final_project/anime img/wp11068436-naruto-4k-ultra-hd-pc-wallpapers.jpg"
+            alt=""
+          />
+          <img
+            id="title-1"
+            src="/final_project/title_card/naruto-37656.png"
+            alt=""
+          />
+          <img
+            onclick="left_arrows()"
+            class="arrow"
+            id="left-arrow"
+            src="/final_project/icons/left-arrow.png"
+            alt=""
+          />
+          <img
+            onclick="right_arrows()"
+            class="arrow"
+            id="right-arrow"
+            src="/final_project/icons/right-arrow.png"
+            alt=""
+          />
+          <div class="box">
+            <p class="genere"></p>
+            <p class="about-title"></p>
+            <div class="btn-container">
+              <button class="watch-btn">
+                <img
+                  class="play-btn"
+                  src="/final_project/icons/play-button.png"
+                  alt=""
+                />
+                START WATCHING S1 E1
+              </button>
+              <button class="add-watchlist">
+                <img
+                  class="add-watchlist-icon"
+                  src="/final_project/icons/save-instagram-orange.png"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div class="slider-btn">
+              <button class="content1" onclick="updateindex(1)"></button>
+              <button class="content2" onclick="updateindex(2)"></button>
+              <button class="content3" onclick="updateindex(3)"></button>
+              <button class="content4" onclick="updateindex(1)"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="anime-list">
+      <h1 id="h1">English Dubs Now on PoPoAnime</h1>
+      <p id="small-title">Check out these great english dubs!</p>
+      <img
+        class="arrow1"
+        id="left-arrow1"
+        src="/final_project/icons/left-arrow.png"
+        alt=""
+      />
+      <img
+        class="arrow"
+        id="right-arrow1"
+        src="/final_project/icons/right-arrow.png"
+        alt=""
+      />
+      <div class="img-container">
+        <img src="/final_project/anime_card/peakpx.jpg" alt="" class="image" />
+        <img
+          src="/final_project/anime_card/jujutusu.jpg"
+          alt=""
+          class="image"
+        />
+        <img
+          src="/final_project/anime_card/my hero acc.jpg"
+          alt=""
+          class="image"
+        />
+        <img
+          src="/final_project/anime_card/bluelock.jpg"
+          alt=""
+          class="image"
+        />
+        <img
+          src="/final_project/anime_card/dr.stone.jpg"
+          alt=""
+          class="image"
+        />
+      </div>
+    </div>
+
+    <div class="anime-list2">
+      <h1 id="h1">Hindi Dubs Now on PoPoAnime</h1>
+      <p id="small-title">Check out these great hindi dubs!</p>
+      <img
+        class="arrow"
+        id="left-arrow2"
+        src="/final_project/icons/left-arrow.png"
+        alt=""
+      />
+      <img
+        class="arrow"
+        id="right-arrow2"
+        src="/final_project/icons/right-arrow.png"
+        alt=""
+      />
+      <div class="img-container1">
+        <img src="/final_project/anime_card/peakpx.jpg" alt="" class="image" />
+        <img
+          src="/final_project/anime_card/jujutusu.jpg"
+          alt=""
+          class="image"
+        />
+        <img
+          src="/final_project/anime_card/my hero acc.jpg"
+          alt=""
+          class="image"
+        />
+        <img
+          src="/final_project/anime_card/bluelock.jpg"
+          alt=""
+          class="image"
+        />
+        <img
+          src="/final_project/anime_card/dr.stone.jpg"
+          alt=""
+          class="image"
+        />
+      </div>
+    </div>
+
+    <div class="card-footer">
+      <div>
+        <img src="" alt="" />
+        <p>
+          Still looking for something to watch?<br />
+          Check out our full library
+        </p>
+        <button class="view-all">VIEW ALL</button>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4>Navigation</h4>
+          <ul>
+            <li>Browse Popular</li>
+            <li>Browse Simulcasts</li>
+            <li>Release Calendar</li>
+            <li>News</li>
+            <li>Games</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Connect With Us</h4>
+          <ul>
+            <li>Youtube</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>TikTok</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>PoPoAnime</h4>
+          <ul>
+            <li>About</li>
+            <li>Help/FAQ</li>
+            <li>Terms of Use</li>
+            <li>Privacy policy</li>
+            <li>Adchoices</li>
+            <li>Your Privacy Choices</li>
+            <li>Cookie Consent Tool</li>
+            <li>Press Inquiries</li>
+            <li>Get The Apps</li>
+            <li>Redeem Gift Card</li>
+            <li>Jobs</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Account</h4>
+          <ul>
+            <li>Create Account</li>
+            <li>Log In</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer2">
+      <p id="small-title">
+        SONY PICTURES | © popoAnime, LLC
+        <img
+          id="down-arrow1"
+          src="/final_project/icons/down-arrow.png"
+          alt=""
+        />
+        <button id="lang-btn">ENGLISH</button>
+      </p>
+    </div>
+
+    <script src="/final_project/mainpage.js"></script>
+  </body>
+</html>
